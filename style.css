@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #d1001c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+.video img {
+  width: 300px;
+  border-radius: 10px;
+}
+.ad-banner {
+  text-align: center;
+  margin: 20px;
+}
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
