@@ -1,34 +1,52 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #111;
-  color: #eee;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
+
 header {
-  background: #d1001c;
-  color: #fff;
+  background: #222;
   padding: 20px;
   text-align: center;
 }
+
+.upload-section {
+  background-color: #1b1b1b;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-section input, .upload-section button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
 .video-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
 }
-.video img {
-  width: 300px;
+
+.video {
+  margin: 10px;
+  background: #222;
+  padding: 10px;
   border-radius: 10px;
 }
-.ad-banner {
-  text-align: center;
-  margin: 20px;
+
+.video video {
+  max-width: 300px;
+  display: block;
 }
+
 footer {
-  background: #222;
+  background: #000;
   color: #aaa;
   text-align: center;
   padding: 20px;
+  margin-top: 30px;
 }
