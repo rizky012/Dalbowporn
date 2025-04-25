@@ -14,27 +14,24 @@
     <p>Tempatnya video dewasa terbaik</p>
   </header>
 
-  <!-- Iklan ExoClick -->
-  <div class="ad-banner">
-    <!-- 46eaee09f1e9bdf9ce455d6dcea5fdd5 -->
-    <script type="text/javascript" src="https://ads.exoclick.com/ad.js"></script>
-  </div>
+  <!-- Form Upload Video -->
+  <section class="upload-section">
+    <h2>Upload Video</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="video" accept="video/mp4" required>
+      <input type="text" name="title" placeholder="Judul Video" required>
+      <button type="submit">Upload</button>
+    </form>
+  </section>
 
   <!-- Galeri Video -->
   <section class="video-gallery">
-    <div class="video">
-      <a href="#"><img src="https://via.placeholder.com/300x200" alt="Video 1"></a>
-      <p>Video Dewasa #1</p>
-    </div>
-    <div class="video">
-      <a href="#"><img src="https://via.placeholder.com/300x200" alt="Video 2"></a>
-      <p>Video Dewasa #2</p>
-    </div>
-    <!-- Tambah lebih banyak video sesuai kebutuhan -->
+    <h2>Video Terbaru</h2>
+    <?php include 'videos.php'; ?>
   </section>
 
   <footer>
-    <p>© 2025 Dalbowporn. Hanya untuk usia 18 tahun ke atas.</p>
+    <p>© Pasukan Bebas Colai. Hanya untuk usia 18 tahun ke atas.</p>
     <a href="#">Kebijakan Privasi</a> | <a href="#">Syarat & Ketentuan</a>
   </footer>
 
